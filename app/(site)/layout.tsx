@@ -7,8 +7,8 @@ interface childrenProps {
 
 const layout = ({ children }: childrenProps) => {
     return (
-        <div>
-            <Header>
+        <div className='w-full h-full'>
+            <Header >
                 {children}
             </Header>
         </div>
