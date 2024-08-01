@@ -5,8 +5,13 @@ const page = async () => {
 
 
     return (
-        <div>
+        <div className='min-h-[600px]'>
+            {" "}
             HomePage
+            <div className='h-[500px] bg-neutral-700'>HomePage</div>
+            <div className='h-[500px] bg-neutral-700'>HomePage</div>
+            <div className='h-[500px] bg-neutral-700'>HomePage</div>
+            <div className='h-[500px] bg-neutral-700'>HomePage</div>
         </div>
     )
 }
